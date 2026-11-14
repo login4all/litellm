@@ -34915,16 +34915,6 @@
         "supports_vision": true,
         "supports_reasoning": true
     },
-    "gigachat/GigaChat-2": {
-        "input_cost_per_token": 0.0,
-        "litellm_provider": "gigachat",
-        "max_input_tokens": 128000,
-        "max_output_tokens": 8192,
-        "mode": "chat",
-        "output_cost_per_token": 0.0,
-        "supports_function_calling": true,
-        "supports_system_messages": true
-    },
     "gigachat/GigaChat-2-Max": {
         "cache_read_input_token_cost": 6.93033e-06,
         "input_cost_per_token": 6.93033e-06,
@@ -34982,17 +34972,6 @@
         "source": "https://cdn.cloud.ru/docs/legal/tariffs/evolution/current-version/foundation-models.pdf",
         "supports_function_calling": true,
         "supports_system_messages": true
-    },
-    "gigachat/GigaChat-2-Pro": {
-        "input_cost_per_token": 0.0,
-        "litellm_provider": "gigachat",
-        "max_input_tokens": 128000,
-        "max_output_tokens": 8192,
-        "mode": "chat",
-        "output_cost_per_token": 0.0,
-        "supports_function_calling": true,
-        "supports_system_messages": true,
-        "supports_vision": true
     },
     "gigachat/Embeddings": {
         "input_cost_per_token": 0.0,
