@@ -34969,6 +34969,20 @@
         "supports_function_calling": true,
         "supports_system_messages": true
     },
+    "gigachat/GigaChat-3-Lightning": {
+        "cache_read_input_token_cost": 2.34253e-07,
+        "input_cost_per_token": 2.34253e-07,
+        "litellm_provider": "gigachat",
+        "max_input_tokens": 261120,
+        "metadata": {
+            "notes": "Cloud.ru price list appendix 7.EVO.11.2 (version 261029), column 'price incl. 22% VAT', RUB per 1M tokens; converted at the CBR USD rate 82.1516 on 2026-11-14. The appendix has no night and no weekend row for any GigaChat model. GigaChat publishes no cache-read tariff, so cache reads bill at the input rate. The appendix has no GigaChat-3-Lightning row; this row is an estimate at one fifth of GigaChat-3-Ultra (the operator's measured rate), not a published tariff."
+        },
+        "mode": "chat",
+        "output_cost_per_token": 7.02611e-07,
+        "source": "https://cdn.cloud.ru/docs/legal/tariffs/evolution/current-version/foundation-models.pdf",
+        "supports_function_calling": true,
+        "supports_system_messages": true
+    },
     "gigachat/GigaChat-2-Pro": {
         "input_cost_per_token": 0.0,
         "litellm_provider": "gigachat",
