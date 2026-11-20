@@ -25978,6 +25978,33 @@
         "litellm_provider": "deepseek",
         "mode": "search"
     },
+    "deepseek/ocr": {
+        "litellm_provider": "deepseek",
+        "mode": "ocr",
+        "ocr_cost_per_page": 0.000225,
+        "source": "https://api-docs.deepseek.com/quick_start/pricing",
+        "metadata": {
+            "notes": "DeepSeek File Parsing and OCR API, $0.225 per 1,000 pages charged on successful pages."
+        }
+    },
+    "deepseek/tts": {
+        "litellm_provider": "deepseek",
+        "mode": "audio_speech",
+        "input_cost_per_character": 4.5e-05,
+        "source": "https://api-docs.deepseek.com/quick_start/pricing",
+        "metadata": {
+            "notes": "DeepSeek Text to Speech list price, $0.45 per 10,000 characters, with a limited-time 50% discount at $0.225 per 10,000 characters. DeepSeek counts a CJK character as two billing characters."
+        }
+    },
+    "deepseek/asr": {
+        "litellm_provider": "deepseek",
+        "mode": "audio_transcription",
+        "input_cost_per_second": 3.222222222222222e-05,
+        "source": "https://api-docs.deepseek.com/quick_start/pricing",
+        "metadata": {
+            "notes": "DeepSeek Speech to Text list price, $0.116 per hour of audio billed per second, with a limited-time 50% discount at $0.058 per hour."
+        }
+    },
     "tinyfish/search": {
         "input_cost_per_query": 0.0,
         "litellm_provider": "tinyfish",
